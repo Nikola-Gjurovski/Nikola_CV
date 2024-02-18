@@ -1,21 +1,206 @@
+let disSS=document.getElementById("section");
+console.log(disSS)
+if(disSS.style.display==='none') {
+    console.log('A')
+    let brojac = 1;
+    let g = document.querySelectorAll('.go');
+//out.removeChild(g[1])
+//out.removeChild(g[2]);
+    /*g[1].remove();
+    g[2].remove()
+    */
+
+    g[1].style.visibility = "hidden";
+    g[2].style.visibility = "hidden";
+    g[1].style.display = 'none'
+    g[2].style.display = 'none'
+
+    document.getElementById("right").addEventListener("click", function right() {
+
+        let slide1 = g[0];
+        let slide2 = g[1];
+        let slide3 = g[2];
+        //brojac++;
+        let inside = 0;
+        if (brojac == 3) {
+            brojac = 1
+        } else {
+            brojac++;
+        }
+
+        if (brojac == 1) {
+            g[0].style.transform = "translateX(100%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
+            g[0].style.display = 'flex'
+            g[0].style.visibility = "visible";
 
 
-document.getElementById('cv').addEventListener('click', function () {
-    // Create a link element
-    var downloadLink = document.createElement('a');
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "hidden";
+            g[1].style.display = 'none'
+            g[2].style.display = 'none'
+        }
 
-    // Set the href attribute to the GitHub raw URL of your CV file
-    downloadLink.href = 'https://docs.google.com/document/d/1bHI8hv25ICwtKolb-pmuwMobOtAWPExj/edit?usp=sharing&ouid=108838544031018503616&rtpof=true&sd=true';
+        if (brojac == 2) {
+            g[0].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(0%)";
+            g[2].style.transform = "translateX(0%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.display = 'flex'
+            g[1].style.visibility = "visible";
 
-    // Set the download attribute with the desired file name
-    downloadLink.download = 'Nikola_Gjurovski_CV.docx';
+            g[2].style.visibility = "hidden";
+            g[0].style.display = 'none'
+            g[2].style.display = 'none'
+        }
 
-    // Append the link to the body
-    document.body.appendChild(downloadLink);
+        if (brojac == 3) {
+            g[0].style.transform = "translateX(-100%)";
+            g[1].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(-100%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "hidden";
+            g[0].style.display = 'none'
+            g[1].style.display = 'none'
+            g[2].style.display = 'flex'
+            g[2].style.visibility = "visible";
 
-    // Programmatically trigger a click event on the link
-    downloadLink.click();
 
-    // Remove the link from the DOM
-    document.body.removeChild(downloadLink);
-});
+            //brojac=0;
+        }
+    });
+    document.getElementById("left").addEventListener("click", function left() {
+        let slide1 = g[0];
+        let slide2 = g[1];
+        let slide3 = g[2];
+
+        let inside = 0;
+
+        if (brojac == 1) {
+            brojac = 3
+        } else {
+            brojac--;
+        }
+
+        if (brojac == 1) {
+            g[0].style.transform = "translateX(100%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
+            g[0].style.visibility = "visible";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 2) {
+            g[0].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(0%)";
+            g[2].style.transform = "translateX(0%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "visible";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 3) {
+            g[0].style.transform = "translateX(-100%)";
+            g[1].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(-100%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "visible";
+            //brojac=0;
+        }
+    });
+
+    function right() {
+        let slide1 = g[0];
+        let slide2 = g[1];
+        let slide3 = g[2];
+        //brojac++;
+        let inside = 0;
+        if (brojac == 3) {
+            brojac = 1
+        } else {
+            brojac++;
+        }
+
+        if (brojac == 1) {
+            g[0].style.transform = "translateX(100%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
+            g[0].style.visibility = "visible";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 2) {
+            g[0].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(0%)";
+            g[2].style.transform = "translateX(0%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "visible";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 3) {
+            g[0].style.transform = "translateX(-100%)";
+            g[1].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(-100%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "visible";
+            //brojac=0;
+        }
+    }
+
+    function left() {
+        let slide1 = g[0];
+        let slide2 = g[1];
+        let slide3 = g[2];
+
+        let inside = 0;
+
+        if (brojac == 1) {
+            brojac = 3
+        } else {
+            brojac--;
+        }
+
+        if (brojac == 1) {
+            g[0].style.transform = "translateX(100%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
+            g[0].style.visibility = "visible";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 2) {
+            g[0].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(0%)";
+            g[2].style.transform = "translateX(0%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "visible";
+            g[2].style.visibility = "hidden";
+        }
+
+        if (brojac == 3) {
+            g[0].style.transform = "translateX(-100%)";
+            g[1].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(-100%)";
+            g[0].style.visibility = "hidden";
+            g[1].style.visibility = "hidden";
+            g[2].style.visibility = "visible";
+            //brojac=0;
+        }
+    }
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowLeft") {
+            left()
+        } else if (e.key === "ArrowRight") {
+
+            right()
+        }
+    })
+}

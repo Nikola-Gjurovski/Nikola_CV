@@ -1,4 +1,16 @@
 @media screen and (max-width: 320px) {
+    body{
+
+        text-align: center;
+
+
+    }
+    div{
+        margin: 0 auto;
+    }
+    #center{
+        margin-left: 10px;
+    }
     header{
         margin-top: -8px;
     }
@@ -10,9 +22,10 @@
     #lista{
         position: absolute;
         background-color: #4ba369;
-        width: 320px;
+        width: 349px;
         text-align: center;
         margin-top: 10px;
+        margin-left: -19px;
     }
     #lista p{
         display: inline-block;
@@ -24,418 +37,19 @@
         font-size: 18px;
     }
     #first{
-        width: 320px;
+        width: 326px;
         height: 300px;
+        margin-left: -17px;
 
-    }
-   #stats{
-       display: flex;
-       justify-content: center;
-       background-color: #4ba369;
-       width: 280px;
-       margin-top: -192px;
-       position: absolute;
-       margin-left: 13px;
-   }
-   #in{
-       /*width: 200px;*/
-   }
-   #Name{
-       display: flex;
-       margin-bottom: 10px;
-
-   }
-   #git-photo{
-       border-radius: 50%;
-       width: 40px;
-   }
-   #ime{
-       font-size: 18px;
-       color: white;
-   }
-   .ime{
-       margin-left: 10px;
-       margin-top: -4px;
-   }
-   #location{
-       display: flex;
-   }
-    .svg{
-        border-radius: 50%;
-        width: 40px;
-    }
-    .text{
-        font-size: 16px;
-        color: white;
-        width: 180px;
-    }
-    #phone{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #mail{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #gender{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #birth{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #about_me{
-        /*display: flex;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
-        /*text-align: center;*/
-        margin-top: 200px;
-        width: 300px;
-
-    }
-
-    #about_me h1{
-      border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .block{
-        background-color: #4ba369;
-        /*display: flex;*/
-        /*align-items: center;*/
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-
-    }
-    .block p{
-        font-size: 16px;
-        color: white;
-    }
-    .block div{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .levo{
-        text-align: center;
-        /*margin-left: 20px;*/
-    }
-    #cv{
-        margin-left: 70px;
-        width: 168px;
-        background-color: #4ba369;
-        margin-top: 20px;
-    }
-    #cv a{
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-    }
-    .shkolo h1{
-        color: white;
-        font-size: 16px;
-    }
-    #education h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #courses h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #education{
-        width: 300px;
-    }
-    #courses{
-        width: 300px;
-    }
-
-    .pl{
-        display: flex;
-    }
-    #programing h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #programing{
-        width: 300px;
-    }
-    #gradient_div {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel {
-        position: absolute;
-        width: 270px;
-        height: 30px;
-        background:orange;
-        left: 0;
-        margin-left: 17px;
-    }
-    #gradient_div2 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel2 {
-        position: absolute;
-        width: 260px;
-        height: 30px;
-        background:cornflowerblue;
-        left: 0;
-        margin-left: 19px;
-    }
-    #gradient_div3 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel3 {
-        position: absolute;
-        width: 266px;
-        height: 30px;
-        background:yellow;
-        left: 0;
-        margin-left: 16px;
-    }
-    #gradient_div4 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel4 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:blue;
-        left: 0;
-        margin-left: 19px;
-    }
-    #gradient_div5 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel5 {
-        position: absolute;
-        width: 236px;
-        height: 30px;
-        background:purple;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div6 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel6 {
-        position: absolute;
-        width: 236px;
-        height: 30px;
-        background:red;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div7 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel7 {
-        position: absolute;
-        width: 206px;
-        height: 30px;
-        background:cadetblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div8 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel8 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:black;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div9 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel9 {
-        position: absolute;
-        width: 206px;
-        height: 30px;
-        background:lightgreen;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div10 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel10 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:yellowgreen;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div11 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel11 {
-        position: absolute;
-        width: 186px;
-        height: 30px;
-        background:black;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div12 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel12 {
-        position: absolute;
-        width: 146px;
-        height: 30px;
-        background:gray;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div13 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel13 {
-        position: absolute;
-        width: 226px;
-        height: 30px;
-        background:deepskyblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div14 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel14 {
-        position: absolute;
-        width: 216px;
-        height: 30px;
-        background:cornflowerblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div15 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel15 {
-        position: absolute;
-        width: 226px;
-        height: 30px;
-        background:dimgray;
-        left: 0;
-        margin-left: 18px;
-    }
-    .comS{
-        width: 300px;
-    }
-    .comS h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 375px) {
-    header{
-        margin-top: -8px;
-    }
-    header img {
-        width: 320px;
-        margin-top: -1px;
-
-    }
-    #lista{
-        position: absolute;
-        background-color: #4ba369;
-        width: 320px;
-        text-align: center;
-        margin-top: 10px;
-    }
-    #lista p{
-        display: inline-block;
-        margin: 1rem 1rem 0 0;
-    }
-    #lista p a{
-        text-decoration: none;
-        color: #dddddd;
-        font-size: 18px;
-    }
-    #first{
-        width: 320px;
-        height: 300px;
-        margin-left: 10px;
     }
     #stats{
         display: flex;
         justify-content: center;
         background-color: #4ba369;
-        width: 280px;
+        width: 320px;
         margin-top: -192px;
         position: absolute;
-        margin-left: 13px;
+        margin-left: -15px;
     }
     #in{
         /*width: 200px;*/
@@ -526,7 +140,7 @@
         /*margin-left: 20px;*/
     }
     #cv{
-        margin-left: 70px;
+        margin-left: 6px;
         width: 168px;
         background-color: #4ba369;
         margin-top: 20px;
@@ -578,7 +192,7 @@
         height: 30px;
         background:orange;
         left: 0;
-        margin-left: 17px;
+        margin-left: 28px;
     }
     #gradient_div2 {
         height: 30px; /* 100% of the viewport height */
@@ -593,7 +207,7 @@
         height: 30px;
         background:cornflowerblue;
         left: 0;
-        margin-left: 19px;
+        margin-left: 28px;
     }
     #gradient_div3 {
         height: 30px; /* 100% of the viewport height */
@@ -608,7 +222,7 @@
         height: 30px;
         background:yellow;
         left: 0;
-        margin-left: 16px;
+        margin-left: 28px;
     }
     #gradient_div4 {
         height: 30px; /* 100% of the viewport height */
@@ -623,7 +237,7 @@
         height: 30px;
         background:blue;
         left: 0;
-        margin-left: 19px;
+        margin-left: 28px;
     }
     #gradient_div5 {
         height: 30px; /* 100% of the viewport height */
@@ -638,7 +252,7 @@
         height: 30px;
         background:purple;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div6 {
         height: 30px; /* 100% of the viewport height */
@@ -653,7 +267,7 @@
         height: 30px;
         background:red;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div7 {
         height: 30px; /* 100% of the viewport height */
@@ -668,7 +282,7 @@
         height: 30px;
         background:cadetblue;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div8 {
         height: 30px; /* 100% of the viewport height */
@@ -683,7 +297,7 @@
         height: 30px;
         background:black;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div9 {
         height: 30px; /* 100% of the viewport height */
@@ -698,7 +312,7 @@
         height: 30px;
         background:lightgreen;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div10 {
         height: 30px; /* 100% of the viewport height */
@@ -713,7 +327,7 @@
         height: 30px;
         background:yellowgreen;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div11 {
         height: 30px; /* 100% of the viewport height */
@@ -728,7 +342,7 @@
         height: 30px;
         background:black;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div12 {
         height: 30px; /* 100% of the viewport height */
@@ -743,7 +357,7 @@
         height: 30px;
         background:gray;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div13 {
         height: 30px; /* 100% of the viewport height */
@@ -758,7 +372,7 @@
         height: 30px;
         background:deepskyblue;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div14 {
         height: 30px; /* 100% of the viewport height */
@@ -773,7 +387,7 @@
         height: 30px;
         background:cornflowerblue;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     #gradient_div15 {
         height: 30px; /* 100% of the viewport height */
@@ -788,7 +402,7 @@
         height: 30px;
         background:dimgray;
         left: 0;
-        margin-left: 18px;
+        margin-left: 28px;
     }
     .comS{
         width: 300px;
@@ -797,404 +411,959 @@
         border-bottom: 3px solid #4ba369;
         text-align: center;
     }
-}
-@media screen and (max-width: 425px) {
-    header{
-        margin-top: -8px;
+    #projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
     }
-    header img {
-        width: 320px;
-        margin-top: -1px;
+    .out{
+        margin-left: -295px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
 
     }
-    #lista{
-        position: absolute;
-        background-color: #4ba369;
-        width: 320px;
-        text-align: center;
-        margin-top: 10px;
-    }
-    #lista p{
-        display: inline-block;
-        margin: 1rem 1rem 0 0;
-    }
-    #lista p a{
-        text-decoration: none;
-        color: #dddddd;
-        font-size: 18px;
-    }
-    #first{
-        width: 320px;
-        height: 300px;
-        margin-left: 10px;
-    }
-    #stats{
+    .go{
+        background-color:  #490304;
+        width: 300px;
+        height: 250px;
         display: flex;
         justify-content: center;
+        transition: all 300ms ease-in;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    .go:hover{
         background-color: #4ba369;
-        width: 280px;
-        margin-top: -192px;
-        position: absolute;
-        margin-left: 13px;
     }
-    #in{
-        /*width: 200px;*/
+    .pr_img{
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
     }
-    #Name{
+    .pr_img2{
+        width: 160px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .go:nth-of-type(2){
+        /*margin-left: 90px;*/
+        background-color: yellowgreen;
         display: flex;
-        margin-bottom: 10px;
-
-    }
-    #git-photo{
-        border-radius: 50%;
-        width: 40px;
-    }
-    #ime{
-        font-size: 18px;
-        color: white;
-    }
-    .ime{
-        margin-left: 10px;
-        margin-top: -4px;
-    }
-    #location{
-        display: flex;
-    }
-    .svg{
-        border-radius: 50%;
-        width: 40px;
-    }
-    .text{
-        font-size: 16px;
-        color: white;
-        width: 180px;
-    }
-    #phone{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #mail{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #gender{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #birth{
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #about_me{
-        /*display: flex;*/
-        /*justify-content: center;*/
-        /*align-items: center;*/
-        /*text-align: center;*/
-        margin-top: 200px;
+        justify-content: center;
+        transition: all 300ms ease-in;
+        text-decoration: none;
         width: 300px;
+        height: 250px;
+    }
+    .go:nth-of-type(3){
+        /*margin-left: 90px;*/
+        background-color: #2e1944;
+        display: flex;
+        justify-content: center;
+        transition: all 300ms ease-in;
+        text-decoration: none;
+        width: 300px;
+    }
+    .why{
+        color: #fcf9cc;
+        margin-left: 10px;
+        font-size: 16px;
 
     }
+    #zhl{
+        color:#fcf9cc;
+    }
+    .why2{
+        color: red;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .sk_img{
+        display: flex;
+        margin-left:43px ;
+        margin-top: -12px;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
 
-    #about_me h1{
-        border-bottom: 3px solid #4ba369;
+    }
+    #projects h1{
         text-align: center;
     }
-    #flex{
+    .h1_p{
+        margin-left: 10px;
+    }
+    #butn{
+        margin-top: -40px;
+        display: flex;
+        justify-content: space-evenly;
+        /*margin-left: 389px;*/
+    }
+    #butn button{
+        border-radius: 50%;
+        width: 59px;
+        height: 58px;
+        border: none;
+        background-color: #4ba369;
+        margin-top: 10em;
+    }
+    #butn  div button:first-of-type{
+        /*margin-right: 38em;*/
+    }
+    #section{
+        margin-top:-93px ;
+        display: none;
+    }
+    .go:first-of-type{
+        transform: translateX(100%);
+
+    }
+    .go:nth-of-type(2) {
+        transform: translateX(100%);
+    }
+    .go:nth-of-type(3) {
+        transform: translateX(100%);
+    }
+    .gos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #sk2{
+        margin-left: 80px;
+        display: flex;
+    }
+    .sk2{
+        margin-left: 14px;
+        margin-top: 30px;
+        display: flex;
+    }
+    footer{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .block{
         background-color: #4ba369;
-        /*display: flex;*/
-        /*align-items: center;*/
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-
-    }
-    .block p{
-        font-size: 16px;
-        color: white;
-    }
-    .block div{
+        width: 300px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .levo{
-        text-align: center;
-        /*margin-left: 20px;*/
-    }
-    #cv{
-        margin-left: 70px;
-        width: 168px;
-        background-color: #4ba369;
-        margin-top: 20px;
-    }
-    #cv a{
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-    }
-    .shkolo h1{
-        color: white;
-        font-size: 16px;
-    }
-    #education h1{
+   /*#as {*/
+   /*     text-align: center;*/
+   /*     display: flex;*/
+   /*     justify-content: center;*/
+   /*     align-items: center;*/
+   /*    margin-left: 10px;*/
+   /*    margin-right: 10px;*/
+   /* }*/
+    footer div h1{
         border-bottom: 3px solid #4ba369;
-        text-align: center;
     }
-    #courses h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #education{
-        width: 300px;
-    }
-    #courses{
-        width: 300px;
+    footer div a img{
+        width: 40px;
     }
 
-    .pl{
-        display: flex;
-    }
-    #programing h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
-    #programing{
-        width: 300px;
-    }
-    #gradient_div {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
 
-    }
-    #knowledgeLevel {
-        position: absolute;
-        width: 270px;
-        height: 30px;
-        background:orange;
-        left: 0;
-        margin-left: 17px;
-    }
-    #gradient_div2 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel2 {
-        position: absolute;
-        width: 260px;
-        height: 30px;
-        background:cornflowerblue;
-        left: 0;
-        margin-left: 19px;
-    }
-    #gradient_div3 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel3 {
-        position: absolute;
-        width: 266px;
-        height: 30px;
-        background:yellow;
-        left: 0;
-        margin-left: 16px;
-    }
-    #gradient_div4 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel4 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:blue;
-        left: 0;
-        margin-left: 19px;
-    }
-    #gradient_div5 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel5 {
-        position: absolute;
-        width: 236px;
-        height: 30px;
-        background:purple;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div6 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel6 {
-        position: absolute;
-        width: 236px;
-        height: 30px;
-        background:red;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div7 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel7 {
-        position: absolute;
-        width: 206px;
-        height: 30px;
-        background:cadetblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div8 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel8 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:black;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div9 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel9 {
-        position: absolute;
-        width: 206px;
-        height: 30px;
-        background:lightgreen;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div10 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel10 {
-        position: absolute;
-        width: 246px;
-        height: 30px;
-        background:yellowgreen;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div11 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel11 {
-        position: absolute;
-        width: 186px;
-        height: 30px;
-        background:black;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div12 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel12 {
-        position: absolute;
-        width: 146px;
-        height: 30px;
-        background:gray;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div13 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel13 {
-        position: absolute;
-        width: 226px;
-        height: 30px;
-        background:deepskyblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div14 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel14 {
-        position: absolute;
-        width: 216px;
-        height: 30px;
-        background:cornflowerblue;
-        left: 0;
-        margin-left: 18px;
-    }
-    #gradient_div15 {
-        height: 30px; /* 100% of the viewport height */
-        width: 250px;
-        background-color: #ddd;
-        margin-left: 30px;
-
-    }
-    #knowledgeLevel15 {
-        position: absolute;
-        width: 226px;
-        height: 30px;
-        background:dimgray;
-        left: 0;
-        margin-left: 18px;
-    }
-    .comS{
-        width: 300px;
-    }
-    .comS h1{
-        border-bottom: 3px solid #4ba369;
-        text-align: center;
-    }
 }
+/*@media (min-width: 321px) and (max-width: 375px) {*/
+/*    header{*/
+/*        margin-top: -8px;*/
+/*    }*/
+/*    header img {*/
+/*        width: 320px;*/
+/*        margin-top: -1px;*/
+
+/*    }*/
+/*    #lista{*/
+/*        position: absolute;*/
+/*        background-color: #4ba369;*/
+/*        width: 320px;*/
+/*        text-align: center;*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*    #lista p{*/
+/*        display: inline-block;*/
+/*        margin: 1rem 1rem 0 0;*/
+/*    }*/
+/*    #lista p a{*/
+/*        text-decoration: none;*/
+/*        color: #dddddd;*/
+/*        font-size: 18px;*/
+/*    }*/
+/*    #first{*/
+/*        width: 320px;*/
+/*        height: 300px;*/
+/*        margin-left: 10px;*/
+/*    }*/
+/*    #stats{*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        background-color: #4ba369;*/
+/*        width: 280px;*/
+/*        margin-top: -192px;*/
+/*        position: absolute;*/
+/*        margin-left: 13px;*/
+/*    }*/
+/*    #in{*/
+/*        !*width: 200px;*!*/
+/*    }*/
+/*    #Name{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+
+/*    }*/
+/*    #git-photo{*/
+/*        border-radius: 50%;*/
+/*        width: 40px;*/
+/*    }*/
+/*    #ime{*/
+/*        font-size: 18px;*/
+/*        color: white;*/
+/*    }*/
+/*    .ime{*/
+/*        margin-left: 10px;*/
+/*        margin-top: -4px;*/
+/*    }*/
+/*    #location{*/
+/*        display: flex;*/
+/*    }*/
+/*    .svg{*/
+/*        border-radius: 50%;*/
+/*        width: 40px;*/
+/*    }*/
+/*    .text{*/
+/*        font-size: 16px;*/
+/*        color: white;*/
+/*        width: 180px;*/
+/*    }*/
+/*    #phone{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #mail{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #gender{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #birth{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #about_me{*/
+/*        !*display: flex;*!*/
+/*        !*justify-content: center;*!*/
+/*        !*align-items: center;*!*/
+/*        !*text-align: center;*!*/
+/*        margin-top: 200px;*/
+/*        width: 300px;*/
+
+/*    }*/
+
+/*    #about_me h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #flex{*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*    }*/
+/*    .block{*/
+/*        background-color: #4ba369;*/
+/*        !*display: flex;*!*/
+/*        !*align-items: center;*!*/
+/*        margin-left: 10px;*/
+/*        margin-right: 10px;*/
+/*        margin-bottom: 10px;*/
+
+/*    }*/
+/*    .block p{*/
+/*        font-size: 16px;*/
+/*        color: white;*/
+/*    }*/
+/*    .block div{*/
+/*        margin-left: 10px;*/
+/*        margin-right: 10px;*/
+/*    }*/
+/*    .levo{*/
+/*        text-align: center;*/
+/*        !*margin-left: 20px;*!*/
+/*    }*/
+/*    #cv{*/
+/*        margin-left: 70px;*/
+/*        width: 168px;*/
+/*        background-color: #4ba369;*/
+/*        margin-top: 20px;*/
+/*    }*/
+/*    #cv a{*/
+/*        text-decoration: none;*/
+/*        font-size: 18px;*/
+/*        color: white;*/
+/*    }*/
+/*    .shkolo h1{*/
+/*        color: white;*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    #education h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #courses h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #education{*/
+/*        width: 300px;*/
+/*    }*/
+/*    #courses{*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    .pl{*/
+/*        display: flex;*/
+/*    }*/
+/*    #programing h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #programing{*/
+/*        width: 300px;*/
+/*    }*/
+/*    #gradient_div {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel {*/
+/*        position: absolute;*/
+/*        width: 270px;*/
+/*        height: 30px;*/
+/*        background:orange;*/
+/*        left: 0;*/
+/*        margin-left: 17px;*/
+/*    }*/
+/*    #gradient_div2 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel2 {*/
+/*        position: absolute;*/
+/*        width: 260px;*/
+/*        height: 30px;*/
+/*        background:cornflowerblue;*/
+/*        left: 0;*/
+/*        margin-left: 19px;*/
+/*    }*/
+/*    #gradient_div3 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel3 {*/
+/*        position: absolute;*/
+/*        width: 266px;*/
+/*        height: 30px;*/
+/*        background:yellow;*/
+/*        left: 0;*/
+/*        margin-left: 16px;*/
+/*    }*/
+/*    #gradient_div4 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel4 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:blue;*/
+/*        left: 0;*/
+/*        margin-left: 19px;*/
+/*    }*/
+/*    #gradient_div5 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel5 {*/
+/*        position: absolute;*/
+/*        width: 236px;*/
+/*        height: 30px;*/
+/*        background:purple;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div6 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel6 {*/
+/*        position: absolute;*/
+/*        width: 236px;*/
+/*        height: 30px;*/
+/*        background:red;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div7 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel7 {*/
+/*        position: absolute;*/
+/*        width: 206px;*/
+/*        height: 30px;*/
+/*        background:cadetblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div8 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel8 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:black;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div9 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel9 {*/
+/*        position: absolute;*/
+/*        width: 206px;*/
+/*        height: 30px;*/
+/*        background:lightgreen;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div10 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel10 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:yellowgreen;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div11 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel11 {*/
+/*        position: absolute;*/
+/*        width: 186px;*/
+/*        height: 30px;*/
+/*        background:black;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div12 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel12 {*/
+/*        position: absolute;*/
+/*        width: 146px;*/
+/*        height: 30px;*/
+/*        background:gray;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div13 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel13 {*/
+/*        position: absolute;*/
+/*        width: 226px;*/
+/*        height: 30px;*/
+/*        background:deepskyblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div14 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel14 {*/
+/*        position: absolute;*/
+/*        width: 216px;*/
+/*        height: 30px;*/
+/*        background:cornflowerblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div15 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel15 {*/
+/*        position: absolute;*/
+/*        width: 226px;*/
+/*        height: 30px;*/
+/*        background:dimgray;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    .comS{*/
+/*        width: 300px;*/
+/*    }*/
+/*    .comS h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 425px) {*/
+/*    header{*/
+/*        margin-top: -8px;*/
+/*    }*/
+/*    header img {*/
+/*        width: 320px;*/
+/*        margin-top: -1px;*/
+
+/*    }*/
+/*    #lista{*/
+/*        position: absolute;*/
+/*        background-color: #4ba369;*/
+/*        width: 320px;*/
+/*        text-align: center;*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*    #lista p{*/
+/*        display: inline-block;*/
+/*        margin: 1rem 1rem 0 0;*/
+/*    }*/
+/*    #lista p a{*/
+/*        text-decoration: none;*/
+/*        color: #dddddd;*/
+/*        font-size: 18px;*/
+/*    }*/
+/*    #first{*/
+/*        width: 320px;*/
+/*        height: 300px;*/
+/*        margin-left: 10px;*/
+/*    }*/
+/*    #stats{*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        background-color: #4ba369;*/
+/*        width: 280px;*/
+/*        margin-top: -192px;*/
+/*        position: absolute;*/
+/*        margin-left: 13px;*/
+/*    }*/
+/*    #in{*/
+/*        !*width: 200px;*!*/
+/*    }*/
+/*    #Name{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+
+/*    }*/
+/*    #git-photo{*/
+/*        border-radius: 50%;*/
+/*        width: 40px;*/
+/*    }*/
+/*    #ime{*/
+/*        font-size: 18px;*/
+/*        color: white;*/
+/*    }*/
+/*    .ime{*/
+/*        margin-left: 10px;*/
+/*        margin-top: -4px;*/
+/*    }*/
+/*    #location{*/
+/*        display: flex;*/
+/*    }*/
+/*    .svg{*/
+/*        border-radius: 50%;*/
+/*        width: 40px;*/
+/*    }*/
+/*    .text{*/
+/*        font-size: 16px;*/
+/*        color: white;*/
+/*        width: 180px;*/
+/*    }*/
+/*    #phone{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #mail{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #gender{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #birth{*/
+/*        display: flex;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    #about_me{*/
+/*        !*display: flex;*!*/
+/*        !*justify-content: center;*!*/
+/*        !*align-items: center;*!*/
+/*        !*text-align: center;*!*/
+/*        margin-top: 200px;*/
+/*        width: 300px;*/
+
+/*    }*/
+
+/*    #about_me h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #flex{*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*    }*/
+/*    .block{*/
+/*        background-color: #4ba369;*/
+/*        !*display: flex;*!*/
+/*        !*align-items: center;*!*/
+/*        margin-left: 10px;*/
+/*        margin-right: 10px;*/
+/*        margin-bottom: 10px;*/
+
+/*    }*/
+/*    .block p{*/
+/*        font-size: 16px;*/
+/*        color: white;*/
+/*    }*/
+/*    .block div{*/
+/*        margin-left: 10px;*/
+/*        margin-right: 10px;*/
+/*    }*/
+/*    .levo{*/
+/*        text-align: center;*/
+/*        !*margin-left: 20px;*!*/
+/*    }*/
+/*    #cv{*/
+/*        margin-left: 70px;*/
+/*        width: 168px;*/
+/*        background-color: #4ba369;*/
+/*        margin-top: 20px;*/
+/*    }*/
+/*    #cv a{*/
+/*        text-decoration: none;*/
+/*        font-size: 18px;*/
+/*        color: white;*/
+/*    }*/
+/*    .shkolo h1{*/
+/*        color: white;*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    #education h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #courses h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #education{*/
+/*        width: 300px;*/
+/*    }*/
+/*    #courses{*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    .pl{*/
+/*        display: flex;*/
+/*    }*/
+/*    #programing h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #programing{*/
+/*        width: 300px;*/
+/*    }*/
+/*    #gradient_div {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel {*/
+/*        position: absolute;*/
+/*        width: 270px;*/
+/*        height: 30px;*/
+/*        background:orange;*/
+/*        left: 0;*/
+/*        margin-left: 17px;*/
+/*    }*/
+/*    #gradient_div2 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel2 {*/
+/*        position: absolute;*/
+/*        width: 260px;*/
+/*        height: 30px;*/
+/*        background:cornflowerblue;*/
+/*        left: 0;*/
+/*        margin-left: 19px;*/
+/*    }*/
+/*    #gradient_div3 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel3 {*/
+/*        position: absolute;*/
+/*        width: 266px;*/
+/*        height: 30px;*/
+/*        background:yellow;*/
+/*        left: 0;*/
+/*        margin-left: 16px;*/
+/*    }*/
+/*    #gradient_div4 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel4 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:blue;*/
+/*        left: 0;*/
+/*        margin-left: 19px;*/
+/*    }*/
+/*    #gradient_div5 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel5 {*/
+/*        position: absolute;*/
+/*        width: 236px;*/
+/*        height: 30px;*/
+/*        background:purple;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div6 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel6 {*/
+/*        position: absolute;*/
+/*        width: 236px;*/
+/*        height: 30px;*/
+/*        background:red;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div7 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel7 {*/
+/*        position: absolute;*/
+/*        width: 206px;*/
+/*        height: 30px;*/
+/*        background:cadetblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div8 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel8 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:black;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div9 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel9 {*/
+/*        position: absolute;*/
+/*        width: 206px;*/
+/*        height: 30px;*/
+/*        background:lightgreen;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div10 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel10 {*/
+/*        position: absolute;*/
+/*        width: 246px;*/
+/*        height: 30px;*/
+/*        background:yellowgreen;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div11 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel11 {*/
+/*        position: absolute;*/
+/*        width: 186px;*/
+/*        height: 30px;*/
+/*        background:black;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div12 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel12 {*/
+/*        position: absolute;*/
+/*        width: 146px;*/
+/*        height: 30px;*/
+/*        background:gray;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div13 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel13 {*/
+/*        position: absolute;*/
+/*        width: 226px;*/
+/*        height: 30px;*/
+/*        background:deepskyblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div14 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel14 {*/
+/*        position: absolute;*/
+/*        width: 216px;*/
+/*        height: 30px;*/
+/*        background:cornflowerblue;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    #gradient_div15 {*/
+/*        height: 30px; !* 100% of the viewport height *!*/
+/*        width: 250px;*/
+/*        background-color: #ddd;*/
+/*        margin-left: 30px;*/
+
+/*    }*/
+/*    #knowledgeLevel15 {*/
+/*        position: absolute;*/
+/*        width: 226px;*/
+/*        height: 30px;*/
+/*        background:dimgray;*/
+/*        left: 0;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*    .comS{*/
+/*        width: 300px;*/
+/*    }*/
+/*    .comS h1{*/
+/*        border-bottom: 3px solid #4ba369;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
