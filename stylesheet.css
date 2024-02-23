@@ -1729,7 +1729,7 @@
     }
 
 }
-@media (min-width: 701px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1400px) {
     body{
 
         text-align: center;
@@ -1782,7 +1782,7 @@
         display: flex;
         justify-content: center;
         background-color: #4ba369;
-        width: 90%;
+        width: 95%;
         margin-top: -192px;
         position: absolute;
         margin-left: 10px;
