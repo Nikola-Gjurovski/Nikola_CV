@@ -1,1 +1,1 @@
-[Link to the web page](https://vinarii-webapp.azurewebsites.net)
+[Link to the web page](https://nikola-gjurovski.github.io/Nikola_CV/)
