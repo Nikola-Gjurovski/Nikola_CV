@@ -1,6 +1,6 @@
 let disSS=document.getElementById("section");
-console.log(disSS)
-if(disSS.style.display==='none') {
+console.log(disSS.style.display)
+if(disSS.style.display!=='none') {
     console.log('A')
     let brojac = 1;
     let g = document.querySelectorAll('.go');
@@ -44,8 +44,8 @@ if(disSS.style.display==='none') {
 
         if (brojac == 2) {
             g[0].style.transform = "translateX(0%)";
-            g[1].style.transform = "translateX(0%)";
-            g[2].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
             g[0].style.visibility = "hidden";
             g[1].style.display = 'flex'
             g[1].style.visibility = "visible";
@@ -58,7 +58,7 @@ if(disSS.style.display==='none') {
         if (brojac == 3) {
             g[0].style.transform = "translateX(-100%)";
             g[1].style.transform = "translateX(-100%)";
-            g[2].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(100%)";
             g[0].style.visibility = "hidden";
             g[1].style.visibility = "hidden";
             g[0].style.display = 'none'
@@ -87,27 +87,41 @@ if(disSS.style.display==='none') {
             g[0].style.transform = "translateX(100%)";
             g[1].style.transform = "translateX(100%)";
             g[2].style.transform = "translateX(100%)";
+            g[0].style.display = 'flex'
             g[0].style.visibility = "visible";
+
+
             g[1].style.visibility = "hidden";
             g[2].style.visibility = "hidden";
+            g[1].style.display = 'none'
+            g[2].style.display = 'none'
         }
 
         if (brojac == 2) {
             g[0].style.transform = "translateX(0%)";
-            g[1].style.transform = "translateX(0%)";
-            g[2].style.transform = "translateX(0%)";
+            g[1].style.transform = "translateX(100%)";
+            g[2].style.transform = "translateX(100%)";
             g[0].style.visibility = "hidden";
+            g[1].style.display = 'flex'
             g[1].style.visibility = "visible";
+
             g[2].style.visibility = "hidden";
+            g[0].style.display = 'none'
+            g[2].style.display = 'none'
         }
 
         if (brojac == 3) {
             g[0].style.transform = "translateX(-100%)";
             g[1].style.transform = "translateX(-100%)";
-            g[2].style.transform = "translateX(-100%)";
+            g[2].style.transform = "translateX(100%)";
             g[0].style.visibility = "hidden";
             g[1].style.visibility = "hidden";
+            g[0].style.display = 'none'
+            g[1].style.display = 'none'
+            g[2].style.display = 'flex'
             g[2].style.visibility = "visible";
+
+
             //brojac=0;
         }
     });
