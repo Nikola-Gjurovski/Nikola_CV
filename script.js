@@ -218,3 +218,20 @@ if(disSS.style.display!=='none') {
         }
     })
 }
+let blocks=document.querySelectorAll(".blocks");
+const representing=function (entry,observer){
+    const [enter]=entry;
+    enter.target.style.opacity="1";
+
+
+
+
+}
+const Observer=new IntersectionObserver(representing,{
+    root: null,
+    threshold: 0.15,
+})
+blocks.forEach(function (items){
+    Observer.observe(items);
+    items.style.opacity="0";
+})
