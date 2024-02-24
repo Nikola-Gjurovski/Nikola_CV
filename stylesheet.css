@@ -1559,7 +1559,7 @@
     }
     .comS{
         width: 100%;
-        margin-left: 10px;
+        /*margin-left: 10px;*/
     }
     .comS h1{
         border-bottom: 3px solid #4ba369;
@@ -2142,7 +2142,7 @@
     }
     .comS{
         width: 100%;
-        margin-left: 10px;
+        /*margin-left: 10px;*/
     }
     .comS h1{
         border-bottom: 3px solid #4ba369;
@@ -2153,6 +2153,7 @@
         align-items: center;
         justify-content: center;
         width: 90%;
+        margin-left: 20px;
     }
     .out{
         margin-left: -577px;
@@ -2262,10 +2263,11 @@
     #section{
         /*margin-top:-93px ;*/
         /*!*display: flex;*!*/
-        margin-left: 19px;
+        margin-left: 39px;
         /*!*display: none;*!*/
         display: flex;
         width: 90%;
+        /*margin-left: 20px;*/
     }
     .go:first-of-type{
         transform: translateX(100%);
@@ -2425,7 +2427,7 @@
         /*text-align: center;*/
         margin-top: 200px;
         width: 95%;
-        margin-left: 10px;
+        margin-left: 20px;
 
     }
 
@@ -2484,11 +2486,11 @@
     }
     #education{
         width: 95%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #courses{
         width: 95%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .pl{
@@ -2500,7 +2502,7 @@
     }
     #programing{
         width: 95%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #gradient_div {
         height: 30px; /* 100% of the viewport height */
@@ -2736,6 +2738,7 @@
         align-items: center;
         justify-content: center;
         width: 95%;
+        margin-left: 20px;
     }
     .out{
         margin-left: -770px;
@@ -2846,7 +2849,7 @@
     #section{
         /*margin-top:-93px ;*/
         /*!*display: flex;*!*/
-        margin-left: 19px;
+        margin-left: 42px;
         /*!*display: none;*!*/
         display: flex;
         width: 95%;
